@@ -1,16 +1,66 @@
-# React + Vite
+# 🖼️ Gallery Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive image gallery built with **React.js**, **Axios**, and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+This project fetches images from the Picsum Photos API and displays them in a gallery with pagination.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- 📸 Fetch images from API
+- 🔄 Pagination with Next and Previous buttons
+- 🖼️ Responsive image gallery
+- 🔗 Click on an image to open the original image/page
+- ⚡ API requests using Axios
+- 🎨 Styled with Tailwind CSS
+- ⚛️ Built with React Hooks
+- 📱 Responsive layout
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+- React.js
+- Axios
+- Tailwind CSS
+- Vite
+- JavaScript
+- Picsum Photos API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📚 React Concepts Used
+
+This project helped me practice:
+
+- `useState`
+- `useEffect`
+- API fetching
+- Axios
+- Async/Await
+- Array `.map()`
+- Props / JSX basics
+- Conditional styling
+- Pagination
+- Dynamic API URLs
+- `key` in React lists
+
+## 🌐 API
+
+This project uses:
+
+**Picsum Photos API**
+https://picsum.photos/v2/list
+
+
+🔮 Future Improvements
+
+- Add search functionality
+- Add loading state
+- Add error handling
+- Add image modal
+- Add image categories
+- Add better mobile UI
+
+👨‍💻 Author
+
+Priyanshu Kumar
+GitHub:
+https://github.com/Priyanshu-pk01
+⭐ If you like this project
+Feel free to star ⭐ the repository!
